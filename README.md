@@ -79,3 +79,5 @@ Finally, when you launch your MoE model, make sure to load the expert to the rig
 
 ## Mixtral 8x7B
 We perform the profiling of expert affinity on the [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) model. The best expert placement strategies are given in this repo (under `solutions/`).
+
+Code implementation will be made available soon.
