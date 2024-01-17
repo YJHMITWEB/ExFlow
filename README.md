@@ -12,7 +12,9 @@ For Python, you can easily install it via:
 python -m pip install gurobipy
 ```
 
-Note, you will need a valid license to use the Gurobi solver, please follow the [official instruction](https://www.gurobi.com/academia/academic-program-and-licenses/) to get the license and place it in the right path.
+Note, that you will need a valid license to use the Gurobi solver, please follow the [official instruction](https://www.gurobi.com/academia/academic-program-and-licenses/) to get the license and place it in the right path.
+
+Also, feel free to use other solvers if you are familiar with integer programming.
 
 
 ## 0. Implement context-coherence design in your MoE model
