@@ -25,8 +25,6 @@ for i in range(num_layer):
 print(routing_array)
 
 def calculate_cost(message, solution, intra_gpus=0):
-    # Placeholder cost function - Replace this with your actual logic.
-    # For example, if the cost is the sum of node differences:
     cost = 0
     count = 0
     intra = 0
