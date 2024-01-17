@@ -1,6 +1,8 @@
 # ExFlow
 Explore Inter-layer Expert Affinity in MoE Model Inference
 
+This is the repository for the paper [https://arxiv.org/abs/2401.08383](https://arxiv.org/abs/2401.08383).
+
 # Quick Start
 
 This repo provides the integer programming model to solve the expert affinity. To run the solver, you need to first install `Gurobi` solver via the [official website](https://support.gurobi.com/hc/en-us).
