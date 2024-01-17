@@ -18,7 +18,7 @@ nodes = 1
 use_bipart = True
 incremental_amount = 5000
 run_times = (num_tokens + incremental_amount - 1) // incremental_amount
-time_limits = 1800 if not use_bipart else 60
+time_limits = 60 # By default, we use bipart solver. If not, you can increase the search time accordingly.
 
 for i in range(num_layer):
     routing_array[:, i] += num_expert_per_layer * i
